@@ -1,4 +1,3 @@
-
 <html>
     <head>
         <meta charset="UTF-8">
@@ -7,7 +6,9 @@
         <title>Lab 02</title>
     </head>
     <body>
+        <!--Inclusion of body, style and behavior sheets-->
         <?php
-            include('body.php');
-            include('validation.php');
+            require('body.php');
+            require('validation.php');
+            require('style.php');
         ?>
